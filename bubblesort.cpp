@@ -3,7 +3,7 @@ using namespace std;
 void bubbleSort(int a[],int n){
 int temp=0;	
 for(int i=0;i<n-1;i++){
-	for(int j=1;j<n-1-i;j++)
+	for(int j=0;j<n-1-i;j++)
 	{    if(a[j]>a[j+1])
 
     {
@@ -17,7 +17,7 @@ for(int i=0;i<n-1;i++){
 
 }
 for(int k=0;k<n;k++){
-	cout<<a[k];
+	cout<<a[k]<<" ";
 }
 
 
