@@ -42,6 +42,6 @@ int main(){
 
    selectionSort(a,n);
 
-
+cout<<"kuchhbhi";
 
 }
